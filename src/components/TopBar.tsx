@@ -16,7 +16,25 @@ export default function TopBar() {
     <div className="px-4 py-3 border-b border-np-border bg-gradient-to-r from-[#0A3A32] via-[#0B2F2A] to-[#0A3A32]">
       <div className="flex items-center justify-between gap-3">
         <div className="flex items-center gap-3 min-w-0">
-          <div className="h-9 w-9 rounded-lg bg-[#0F4A3F] border border-np-border grid place-items-center font-black">N</div>
+          <div
+            className="flex items-center justify-center rounded-2xl shadow-sm ring-1 ring-white/15 overflow-hidden"
+            style={{
+              height: "55px",
+              width: "50px",
+              backgroundColor: "rgba(255,255,255,0.12)"
+            }}
+          >
+            <img
+              src="/images/police.png"
+              alt="Police Logo"
+              style={{
+                height: "100%",
+                width: "100%",
+                objectFit: "cover",   // 🔑 fills frame completely
+                display: "block"
+              }}
+            />
+          </div>
           <div className="min-w-0">
             <div className="text-lg font-extrabold tracking-wide truncate">
               NPODIAS <span className="font-semibold text-np-muted">— Lagos State Command Center</span>
