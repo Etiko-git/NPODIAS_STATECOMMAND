@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ikeja Division"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.28,
+              6.62
+            ],
+            [
+              3.45,
+              6.62
+            ],
+            [
+              3.45,
+              6.52
+            ],
+            [
+              3.28,
+              6.52
+            ],
+            [
+              3.28,
+              6.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apapa Wharf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.33,
+              6.46
+            ],
+            [
+              3.42,
+              6.46
+            ],
+            [
+              3.42,
+              6.42
+            ],
+            [
+              3.33,
+              6.42
+            ],
+            [
+              3.33,
+              6.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ikorodu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.45,
+              6.66
+            ],
+            [
+              3.62,
+              6.66
+            ],
+            [
+              3.62,
+              6.56
+            ],
+            [
+              3.45,
+              6.56
+            ],
+            [
+              3.45,
+              6.66
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
